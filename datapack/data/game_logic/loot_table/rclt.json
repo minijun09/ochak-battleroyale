@@ -92,7 +92,7 @@
 "id": "minecraft:resistance",
 "amplifier": 0,
 "duration": 600,
-"show_particles": true}]
+"show_particles": false}]
 },
 "minecraft:tooltip_display": {
 "hidden_components": ["minecraft:potion_contents"]}

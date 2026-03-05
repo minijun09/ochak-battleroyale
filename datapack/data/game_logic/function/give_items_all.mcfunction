@@ -8,7 +8,7 @@ give @s snowball[custom_data={grenade_type:"impact"},item_name='충수',lore=[{t
 give @s snowball[custom_data={grenade_type:"smoke"},item_name='연막',lore=[{text:"",italic:false,color:blue}]]
 
 give @s copper_ingot[item_name="리볼버",custom_data={gun:"true",gun_id:revolver},item_model="ochak:revolver",food={nutrition:0,saturation:0,can_always_eat:true},consumable={consume_seconds:2147483647, animation:"none"}]
-give @s minecraft:copper_nugget[item_name=".357 매그넘",lore=[{text:"",italic:false,color:blue}],item_model="ochak:revolver_ammo"]
+give @s minecraft:copper_nugget[item_name=".357 매그넘",lore=[{text:"",italic:false,color:blue}],item_model="ochak:.357_magnum"]
 
 give @s copper_ingot[item_name="M4A1",custom_data={gun:"true",gun_id:m4a1},item_model="ochak:m4a1",food={nutrition:0,saturation:0,can_always_eat:true},consumable={consume_seconds:2147483647, animation:"none"}] 1
 give @s minecraft:iron_nugget[item_name="5.56mm STANAG 탄창",lore=[{text:"",italic:false,color:blue}],item_model="ochak:mag_556stanag"]
