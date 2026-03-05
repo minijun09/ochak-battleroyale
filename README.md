@@ -9,47 +9,95 @@ If you do not apply [this resource pack](https://github.com/minijun09/ochak-batt
 
 ---
 
+## Dependencies
+- Minecraft 1.21.11 Any Dedicated plugin-applicable server (ex. Spigot, Paper...)
+- [ochak-brresourcepack](https://github.com/minijun09/ochak-battleroyale/releases) resource pack
+- Skript plugin 
+
 ## Data Pack
-- healing
-    - first aid kit
-    - bandage
-    - energy drink
-    - adrenaline
-    - painkiller
-- weapons
-    - revolver single action
-    - M4A1
-- ammo
-    - .357 magnum
-- magazine
-    - 5.56mm STANAG
-- throwable
-    - impact grenade
-    - smoke grenade
-- user interface
-    - remaining bullets display
-    - cooldown display
-- some **unknown** items
+<details>
+<summary>healing</summary>
+<ul>
+<li>first aid kit</li>
+<li>bandage</li>
+<li>energy drink</li>
+<li>adrenaline</li>
+<li>painkiller</li>
+</ul>
+</details>
+<details>
+<summary>weapons</summary>
+<ul>
+<li>revolver single action</li>
+<li>M4A1</li>
+</ul>
+</details>
+<details>
+<summary>ammo</summary>
+<ul>
+<li>.357 magnum</li>
+</ul>
+</details>
+<details>
+<summary>magazine</summary>
+<ul>
+<li>5.56mm STANAG</li>
+</ul>
+</details>
+<details>
+<summary>throwable</summary>
+<ul>
+<li>impact grenade</li>
+<li>smoke grenade</li>
+</ul>
+</details>
+<details>
+<summary>user interface</summary>
+<ul>
+<li>remaining bullets display</li>
+<li>cooldown display</li>
+</ul>
+</details>
 
 --- 
 
 ## Resource Pack
-- healing
-    - first aid kit
-    - bandage
-    - energy drink
-    - adrenaline
-    - painkiller
-- weapons
-    - revolver single action
-    - M4A1
-- ammo
-    - .357 magnum
-- magazine
-    - 5.56mm STANAG
-- throwable
-    - impact grenade
-    - smoke grenade
+<details>
+<summary>healing</summary>
+<ul>
+<li>first aid kit</li>
+<li>bandage</li>
+<li>energy drink</li>
+<li>adrenaline</li>
+<li>painkiller</li>
+</ul>
+</details>
+<details>
+<summary>weapons</summary>
+<ul>
+<li>revolver single action</li>
+<li>M4A1</li>
+</ul>
+</details>
+<details>
+<summary>ammo</summary>
+<ul>
+<li>.357 magnum</li>
+</ul>
+</details>
+<details>
+<summary>magazine</summary>
+<ul>
+<li>5.56mm STANAG</li>
+</ul>
+</details>
+<details>
+<summary>throwable</summary>
+<ul>
+<li>impact grenade</li>
+<li>smoke grenade</li>
+</ul>
+</details>
 
 ---
 
