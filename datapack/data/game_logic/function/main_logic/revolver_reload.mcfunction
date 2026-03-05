@@ -1,25 +1,11 @@
-# 1. 벽 감지 (가장 먼저 체크하여 불필요한 연산 방지)
-execute unless block ~ ~ ~ #minecraft:replaceable run kill @s
-execute unless entity @s run return 0
+#조건 안맞으면 리턴
+item replace entity @s weapon.mainhand from entity @s weapon.offhand
+item replace entity @s weapon.offhand with air
+execute unless score @s revolver_cooldown matches 0 run return fail
+execute if score @s revolver_ammo = @s revolver_max_ammo run return fail
+execute unless items entity @s container.* minecraft:copper_nugget[item_name={"text":".357 매그넘"}] run return fail
 
-# 2. 앞으로 이동
-execute at @s as @s run tp @s ^ ^ ^0.5
-
-# 3. 궤적 표시
-execute at @s if score @s max_range matches ..47 run particle smoke ~ ~ ~ 0 0 0 0.01 1
-
-# 4. 주변몹 감지 및 데미지
-# dx, dy, dz는 양수 값을 권장합니다. (범위 설정 주의)
-execute at @s as @e[type=!block_display, distance=..1, limit=1] if score @s bullet_age matches 2.. run damage @s 1 minecraft:arrow by @p
-execute at @s if entity @e[type=!block_display, distance=..1, limit=1] if score @s bullet_age matches 2.. run kill @s
-execute unless entity @s run return 0
-
-# 5. 최대 사거리 감지 및 재귀 호출
-scoreboard players remove @s max_range 1
-
-# 사거리가 다 되면 죽이고 함수 완전히 종료
-execute if score @s max_range matches ..0 run kill @s
-execute if score @s max_range matches ..0 run return 0
-
-# 위 조건들을 모두 통과했을 때만 다음 루프 실행
-function game_logic:main_logic/revolver_raycast_loop
+#재장전코드
+scoreboard players add @s revolver_ammo 1
+clear @s minecraft:copper_nugget[item_name={"text":".357 매그넘"}] 1
+scoreboard players set @s revolver_cooldown 10

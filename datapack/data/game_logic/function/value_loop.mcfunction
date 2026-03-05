@@ -3,6 +3,7 @@ scoreboard players add @a max_ammo 0
 scoreboard players add @a ammo 0
 scoreboard players add @a smoke_timer 0
 scoreboard players add @e[tag=bullet] bullet_age 1
+scoreboard players add @a cooldown 0
 
 scoreboard players add @a revolver_cooldown 0
 scoreboard players add @a revolver_ammo 0

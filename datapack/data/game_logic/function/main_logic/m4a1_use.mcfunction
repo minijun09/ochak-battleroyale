@@ -4,7 +4,7 @@ execute at @s as @e[tag=new_bullet] run tp @s ~ ~1.5 ~ ~ ~
 
 # 2. 소환된 해당 마커에게 방향 복사 및 본인만의 점수 부여
 scoreboard players set @e[tag=new_bullet] max_range 50
-
+scoreboard players set @e[tag=new_bullet] bullet_age 3
 # 3. 태그 정리 및 루프 시작
 tag @e[tag=new_bullet] remove new_bullet
 playsound minecraft:entity.generic.explode player @a ~ ~ ~ 0.6 2

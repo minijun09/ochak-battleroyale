@@ -28,6 +28,7 @@ If you do not apply [this resource pack](https://github.com/minijun09/ochak-batt
     - smoke grenade
 - user interface
     - remaining bullets display
+    - cooldown display
 - some **unknown** items
 
 --- 

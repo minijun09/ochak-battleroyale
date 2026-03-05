@@ -1,0 +1,4 @@
+{
+  "death.attack.gamelogic.gunshot": "%1$s님이 총에 맞아 사망했습니다.",
+  "death.attack.gamelogic.gunshot.item": "%1$s님이 %3$s을(를) 사용한 %2$s님에게 사살되었습니다."
+}
