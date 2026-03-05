@@ -1,14 +1,21 @@
+# heal
 give @s paper[item_name="붕대",lore=[{text:"체력을 즉시 2칸 회복합니다.",italic:false,color:blue}],item_model="ochak:bandage",food={nutrition:0,saturation:0,can_always_eat:true},consumable={consume_seconds:1.5,animation:"eat",has_consume_particles:false,sound:"minecraft:item.armor.equip_leather",on_consume_effects:[{type:"minecraft:play_sound",sound:"minecraft:item.armor.equip_leather"}]},potion_contents={custom_effects:[{id:"minecraft:instant_health",amplifier:0,duration:0,show_particles:false}]},tooltip_display={hidden_components:["minecraft:potion_contents"]}]
 give @s orange_dye[item_name="구급 상자",lore=[{text:"체력을 즉시 4칸 회복합니다.",italic:false,color:blue}],item_model="ochak:fak",max_stack_size=1,food={nutrition:0,saturation:0,can_always_eat:true},consumable={consume_seconds:3,animation:"eat",has_consume_particles:false,sound:"minecraft:item.armor.equip_leather",on_consume_effects:[{type:"minecraft:play_sound",sound:"minecraft:item.armor.equip_leather"}]},potion_contents={custom_effects:[{id:"minecraft:instant_health",amplifier:1,duration:0,show_particles:false}]},tooltip_display={hidden_components:["minecraft:potion_contents"]}]
 give @s white_dye[item_name="진통제",lore=[{text:"저항 II 버프를 30초 부여합니다.",italic:false,color:blue}],item_model="ochak:painkiller",food={nutrition:0,saturation:0,can_always_eat:true},consumable={consume_seconds:1,animation:"eat",has_consume_particles:false,sound:"minecraft:item.armor.equip_leather",on_consume_effects:[{type:"minecraft:play_sound",sound:"minecraft:entity.player.burp"}]},potion_contents={custom_effects:[{id:"minecraft:resistance",amplifier:0,duration:600,show_particles:true}]},tooltip_display={hidden_components:["minecraft:potion_contents"]}]
-give @s white_dye[item_name="아드레날린",lore=[{text:"",italic:false,color:blue}],item_model="ochak:injector",max_stack_size=1,food={nutrition:0,saturation:0,can_always_eat:true},consumable={consume_seconds:0.5,animation:"eat",has_consume_particles:false,sound:"minecraft:ui.hud.bubble_pop",on_consume_effects:[{type:"minecraft:play_sound",sound:"minecraft:item.spear.use"}]},potion_contents={custom_effects:[{id:"minecraft:absorption",amplifier:1,duration:600,show_particles:false}]},tooltip_display={hidden_components:["minecraft:potion_contents"]}]
-give @s iron_ingot[item_name="에너지 드링크",lore=[{text:"",italic:false,color:blue}],item_model="ochak:drink",food={nutrition:0,saturation:0,can_always_eat:true},consumable={consume_seconds:1,animation:"eat",sound:"minecraft:entity.generic.drink",has_consume_particles:false,on_consume_effects:[{type:"minecraft:play_sound",sound:"minecraft:ui.hud.bubble_pop"},{type:"minecraft:apply_effects",effects:[{id:"minecraft:speed",amplifier:0,duration:600}]}]},tooltip_display={hidden_components:["minecraft:potion_contents"]}]
-give @s totem_of_undying[item_name="리버스 카드",lore=[{text:"",italic:false,color:blue}],item_model="item_model_guide:uno_reverse"]
-give @s snowball[custom_data={grenade_type:"impact"},item_name='충수',lore=[{text:"",italic:false,color:blue}]]
-give @s snowball[custom_data={grenade_type:"smoke"},item_name='연막',lore=[{text:"",italic:false,color:blue}]]
+give @s white_dye[item_name="아드레날린",lore=[{text:"흡수 II 버프를 30초 부여합니다.",italic:false,color:blue}],item_model="ochak:injector",max_stack_size=1,food={nutrition:0,saturation:0,can_always_eat:true},consumable={consume_seconds:0.5,animation:"eat",has_consume_particles:false,sound:"minecraft:ui.hud.bubble_pop",on_consume_effects:[{type:"minecraft:play_sound",sound:"minecraft:item.spear.use"}]},potion_contents={custom_effects:[{id:"minecraft:absorption",amplifier:1,duration:600,show_particles:false}]},tooltip_display={hidden_components:["minecraft:potion_contents"]}]
+give @s iron_ingot[item_name="에너지 드링크",lore=[{text:"속도 증가 버프를 30초 부여합니다.",italic:false,color:blue}],item_model="ochak:drink",food={nutrition:0,saturation:0,can_always_eat:true},consumable={consume_seconds:1,animation:"eat",sound:"minecraft:entity.generic.drink",has_consume_particles:false,on_consume_effects:[{type:"minecraft:play_sound",sound:"minecraft:ui.hud.bubble_pop"},{type:"minecraft:apply_effects",effects:[{id:"minecraft:speed",amplifier:0,duration:600}]}]},tooltip_display={hidden_components:["minecraft:potion_contents"]}]
 
+# throwable
+give @s snowball[custom_data={grenade_type:"impact"},item_name='충격 수류탄',lore=[{text:"투척 후 충격을 받으면 즉시 폭파합니다.",italic:false,color:blue}],item_model="ochak:impact_grenade"]
+give @s snowball[custom_data={grenade_type:"smoke"},item_name='연막탄',lore=[{text:"투척 후 연기를 방출하여 적을 방해합니다.",italic:false,color:blue}],item_model="ochak:smoke_grenade"]
+
+# revolver
 give @s copper_ingot[item_name="리볼버",custom_data={gun:"true",gun_id:revolver},item_model="ochak:revolver",food={nutrition:0,saturation:0,can_always_eat:true},consumable={consume_seconds:2147483647, animation:"none"}]
-give @s minecraft:copper_nugget[item_name=".357 매그넘",lore=[{text:"",italic:false,color:blue}],item_model="ochak:revolver_ammo"]
+give @s minecraft:copper_nugget[item_name=".357 매그넘",lore=[{text:"리볼버의 탄약입니다.",italic:false,color:blue}],item_model="ochak:dot357_magnum"]
 
+# m4a1
 give @s copper_ingot[item_name="M4A1",custom_data={gun:"true",gun_id:m4a1},item_model="ochak:m4a1",food={nutrition:0,saturation:0,can_always_eat:true},consumable={consume_seconds:2147483647, animation:"none"}] 1
-give @s minecraft:iron_nugget[item_name="5.56mm STANAG 탄창",lore=[{text:"",italic:false,color:blue}],item_model="ochak:mag_556stanag"]
+give @s minecraft:iron_nugget[item_name="5.56mm STANAG 탄창",lore=[{text:"M4A1의 탄창입니다.",italic:false,color:blue}],item_model="ochak:mag_556stanag"]
+
+# unknown items
+give @s totem_of_undying[item_name="리버스 카드",lore=[{text:"게임에서 살아남기 위한 마지막 수단입니다.",italic:false,color:blue}],item_model="item_model_guide:uno_reverse"]
