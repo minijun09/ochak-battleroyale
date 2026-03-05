@@ -42,10 +42,14 @@ If you do not apply [this resource pack](https://github.com/minijun09/ochak-batt
     - painkiller
 - weapons
     - revolver single action
+    - M4A1
 - ammo
     - .357 magnum
+- magazine
+    - 5.56mm STANAG
 - throwable
     - impact grenade
+    - smoke grenade
 
 ---
 
