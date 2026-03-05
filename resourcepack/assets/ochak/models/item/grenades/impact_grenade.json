@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "ochak:item/impact_grenade"
+    "layer0": "ochak:item/grenades/impact_grenade"
   }
 }

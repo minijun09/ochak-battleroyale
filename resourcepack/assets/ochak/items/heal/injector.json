@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "ochak:item/injector"
+    "model": "ochak:item/heal/injector"
   }
 }

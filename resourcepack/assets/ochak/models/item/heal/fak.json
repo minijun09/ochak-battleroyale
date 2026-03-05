@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "ochak:item/fak"
+    "layer0": "ochak:item/heal/fak"
   }
 }

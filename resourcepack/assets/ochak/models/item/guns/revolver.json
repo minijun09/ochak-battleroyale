@@ -3,7 +3,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "carrot_on_a_stick",
 	"textures": {
-		"0": "ochak:item/revolver"
+		"0": "ochak:item/guns/revolver"
 	},
 	"elements": [
 		{

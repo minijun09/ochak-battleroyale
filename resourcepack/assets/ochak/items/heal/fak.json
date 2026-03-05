@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "ochak:item/fak"
+    "model": "ochak:item/heal/fak"
   }
 }

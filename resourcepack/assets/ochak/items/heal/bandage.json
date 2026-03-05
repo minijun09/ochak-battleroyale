@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "ochak:item/bandage"
+    "model": "ochak:item/heal/bandage"
   }
 }

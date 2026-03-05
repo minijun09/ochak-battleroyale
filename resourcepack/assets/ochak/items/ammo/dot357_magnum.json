@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "ochak:item/dot357_magnum"
+    "model": "ochak:item/ammo/dot357_magnum"
   }
 }

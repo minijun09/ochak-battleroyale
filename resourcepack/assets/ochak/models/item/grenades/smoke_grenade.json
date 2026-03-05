@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "ochak:item/smoke_grenade"
+    "layer0": "ochak:item/grenades/smoke_grenade"
   }
 }

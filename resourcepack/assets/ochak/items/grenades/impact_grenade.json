@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "ochak:item/impact_grenade"
+    "model": "ochak:item/grenades/impact_grenade"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "ochak:item/dot357_magnum"
+    "layer0": "ochak:item/ammo/dot357_magnum"
   }
 }

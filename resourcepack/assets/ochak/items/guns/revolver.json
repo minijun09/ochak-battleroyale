@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "ochak:item/revolver"
+    "model": "ochak:item/guns/revolver"
   }
 }
