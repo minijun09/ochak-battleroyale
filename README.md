@@ -8,14 +8,19 @@ ochak's battle-royale server.
 If you do not apply [this resource pack](https://github.com/minijun09/ochak-battleroyale/releases), items may appear broken.
 
 ---
-## Installation
-
----
 
 ## Dependencies
 - Minecraft 1.21.11 Any Dedicated plugin-applicable server (ex. Spigot, Paper...)
 - [ochak-brresourcepack](https://github.com/minijun09/ochak-battleroyale/releases) resource pack
 - Skript plugin
+- SkQuery plugin addon
+
+---
+
+## Installation
+create a folder contains **(bukkit).jar**, **world** folder and **plugins** folder.  
+put the data pack in the world folder.
+input resource pack URL in the **server.properties**. (ex. resource-pack=[URL])
 
 ---
 
@@ -59,8 +64,17 @@ If you do not apply [this resource pack](https://github.com/minijun09/ochak-batt
 <details>
 <summary>user interface</summary>
 <ul>
+<li>item lore</li>
 <li>remaining bullets display</li>
-<li>cooldown display</li>
+<li>bullet cooldown display</li>
+</ul>
+</details>
+<details>
+<summary>game logic</summary>
+<ul>
+<li>chest drop table</li>
+<li>off-hand item ban</li>
+<li>totem of undying auto use</li>
 </ul>
 </details>
 

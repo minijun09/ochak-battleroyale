@@ -1,7 +1,7 @@
 command /관리자메뉴:
     trigger:
         if player is op:
-            set {_gui} to chest inventory with 1 rows named "관리자메뉴"
+            set {_gui} to chest inventory with 1 rows named "관리자 메뉴"
             set slot 1 of {_gui} to lime wool named "게임 메뉴 열기"
             set slot 7 of {_gui} to barrel named "아이템 메뉴 열기"
             open {_gui} to player
@@ -9,7 +9,7 @@ command /관리자메뉴:
             send "권한이 없습니다." to player
         
 on inventory click:
-    if event-inventory's name = "관리자메뉴":
+    if event-inventory's name = "관리자 메뉴":
         cancel event
         if event-inventory = player's inventory:
             stop
@@ -21,14 +21,14 @@ on inventory click:
         if clicked slot = 7:
             set {_gui} to chest inventory with 8 rows named "관리자 아이템 메뉴"
             set slot 0 of {_gui} to barrel named "붕대"
-            set slot 1 of {_gui} to barrel named "구급상자"
+            set slot 1 of {_gui} to barrel named "구급 상자"
             set slot 2 of {_gui} to barrel named "진통제"
             set slot 3 of {_gui} to barrel named "아드레날린"
             set slot 4 of {_gui} to barrel named "에너지 드링크"
-            set slot 5 of {_gui} to barrel named "충수"
-            set slot 6 of {_gui} to barrel named "연막"
+            set slot 5 of {_gui} to barrel named "충격 수류탄"
+            set slot 6 of {_gui} to barrel named "연막탄"
             set slot 7 of {_gui} to barrel named "리볼버"
-            set slot 8 of {_gui} to barrel named ".357매그넘"
+            set slot 8 of {_gui} to barrel named ".357 매그넘"
             set slot 9 of {_gui} to barrel named "M4A1"
             set slot 10 of {_gui} to barrel named "5.56mm STANAG 탄창"
             open {_gui} to player

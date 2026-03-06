@@ -2,7 +2,7 @@
 on inventory click:
     if clicked slot is 40: # 40번은 플레이어의 왼손(Offhand) 슬롯 번호입니다.
         cancel event
-        send "&c왼손 슬롯에 아이템을 직접 넣을 수 없습니다." to player
+        send "&c왼손(또는 오른손) 슬롯에 아이템을 직접 넣을 수 없습니다." to player
 
 # 2. 숫자 키(Hotbar)를 이용해 왼손 슬롯과 바꾸는 것 차단
     if inventory action is hotbar swap or hotbar button:
@@ -20,7 +20,7 @@ on inventory click:
     # 1. 인벤토리 내에서 F키(스왑 키)를 누르는 동작 감지
     if click type is swap offhand:
         cancel event
-        send "&c인벤토리에서 왼손 스왑을 할 수 없습니다." to player
+        send "&c인벤토리에서 왼손(또는 오른손) 스왑을 할 수 없습니다." to player
 
         # 2. 왼손 슬롯(40번)에 대한 직접적인 상호작용 차단 (클릭, 드래그 등)
     if clicked slot is 40:
