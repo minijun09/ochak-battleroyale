@@ -120,13 +120,30 @@ input resource pack URL in the **server.properties**. (ex. resource-pack=[URL])
 
 ---
 
+# Skript
 <details>
-<summary>skript</summary>
+<summary>game logic</summary>
 <ul>
-<li>game logic extension</li>
-<li>graphic user interface</li>
-<li>off-hand item ban</li>
-<li>unknown skill</li>
+<li>player tool loop</li>
+</ul>
+</details>
+<details>
+<summary>graphic user interface</summary>
+<ul>
+<li>admin menu</li>
+<li>give item</li>
+</ul>
+</details>
+<details>
+<summary>off hand ban</summary>
+<ul>
+<li>off hand ban for reloading guns</li>
+<li>send message when player put item in off hand</li>
+</ul>
+</details>
+<details>unknown item skill</summary>
+<ul>
+<li>send message when player use unknown item</li>
 </ul>
 </details>
 
