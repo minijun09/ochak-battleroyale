@@ -120,6 +120,18 @@ input resource pack URL in the **server.properties**. (ex. resource-pack=[URL])
 
 ---
 
+<details>
+<summary>skript</summary>
+<ul>
+<li>game logic extension</li>
+<li>graphic user interface</li>
+<li>off-hand item ban</li>
+<li>unknown skill</li>
+</ul>
+</details>
+
+---
+
 ## Credit
 [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0) except [ochak](https://www.youtube.com/channel/UCmTPl_i44TJl4wYTHHEI8IQ?si=8P_Ckdw82qAESYdf) and Contibutors.
 
