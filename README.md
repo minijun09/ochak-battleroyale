@@ -141,7 +141,8 @@ input resource pack URL in the **server.properties**. (ex. resource-pack=[URL])
 <li>send message when player put item in off hand</li>
 </ul>
 </details>
-<details>unknown item skill</summary>
+<details>
+<summary>unknown item skill</summary>
 <ul>
 <li>send message when player use unknown item</li>
 </ul>
